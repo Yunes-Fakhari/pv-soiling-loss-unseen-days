@@ -1,0 +1,6 @@
+# Python 3.10 or newer, CPU is enough (one training run takes about 1.5 h on a desktop CPU)
+numpy
+pandas
+pillow
+matplotlib
+tensorflow==2.21.0

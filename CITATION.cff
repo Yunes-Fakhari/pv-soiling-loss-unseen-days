@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or the day-based split, please cite the paper."
+title: "Image-Based PV Soiling Loss Estimation with a Lightweight CNN and a Regional Soiling Index"
+authors:
+  - family-names: Fakhari
+    given-names: Yunes
+  - family-names: Hassanpour
+    given-names: Hamid
+  - family-names: Zamen
+    given-names: Mohammad
+preferred-citation:
+  type: conference-paper
+  title: "Image-Based PV Soiling Loss Estimation with a Lightweight CNN and a Regional Soiling Index"
+  authors:
+    - family-names: Fakhari
+      given-names: Yunes
+    - family-names: Hassanpour
+      given-names: Hamid
+    - family-names: Zamen
+      given-names: Mohammad
+  collection-title: "12th International Conference on Signal Processing and Intelligent Systems (ICSPIS)"
+  year: 2026
