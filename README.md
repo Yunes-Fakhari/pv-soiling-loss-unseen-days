@@ -85,9 +85,6 @@ python scripts/leakage.py --data-root dataset_raw
 
 The images themselves are not included; they belong to the DeepSolarEye authors.
 
-## Limitations
-
-All images come from one panel, one camera view, one site, and one month, and only three days are held out for testing, so the results may not hold for other panels or seasons. The hardest images are those whose loss is far larger than their soiled area: they are 30% of the clean test set but cause 61% of its squared error.
 
 ## Citation
 
