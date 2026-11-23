@@ -1,0 +1,5 @@
+{
+  "dataset_root": "data/raw",
+  "output_dir": "data/processed_no_clahe",
+  "processing": {"clahe": false}
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "processing": {
+    "corners": [
+      [
+        80,
+        21
+      ],
+      [
+        186,
+        35
+      ],
+      [
+        160,
+        164
+      ],
+      [
+        17,
+        145
+      ]
+    ],
+    "size": 192,
+    "margin": 6,
+    "clahe": true,
+    "clahe_clip": 2.0,
+    "clahe_tiles": [
+      4,
+      4
+    ],
+    "mask_threshold": 0.7,
+    "full_blockage": 0.7,
+    "top_cells": 2,
+    "feature_precision": "float16"
+  },
+  "feature_signature": "8663aa8a18a50ad3f5ac94df257e9d3fd62e934b189a0a1a6a63dd4ccfba82e0",
+  "source": "archived_cell_shares",
+  "sampled_n": 11632,
+  "raw_n": 45754,
+  "diagnostic_n": 9902,
+  "sampling_seconds": 30
+}

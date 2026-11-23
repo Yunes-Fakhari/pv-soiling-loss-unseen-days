@@ -1,0 +1,20 @@
+{
+  "dataset_root": "data/raw",
+  "output_dir": "data/processed",
+  "sampling_seconds": 30,
+  "processing": {
+    "corners": [[80, 21], [186, 35], [160, 164], [17, 145]],
+    "size": 192,
+    "margin": 6,
+    "clahe": true,
+    "clahe_clip": 2.0,
+    "clahe_tiles": [4, 4],
+    "mask_threshold": 0.7,
+    "full_blockage": 0.7,
+    "top_cells": 2,
+    "feature_precision": "float16"
+  },
+  "model": {"exponent": 0.7, "sun_start": 6.0, "sun_duration": 12.5},
+  "seeds": [42, 7, 123],
+  "test_days": ["2017-06-13", "2017-06-15", "2017-06-22"]
+}

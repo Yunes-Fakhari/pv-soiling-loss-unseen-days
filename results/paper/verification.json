@@ -1,0 +1,30 @@
+{
+  "method": "PBI-Loss",
+  "validation_date": "2026-11-24",
+  "raw_images_scanned": 45754,
+  "raw_images_processed": 11632,
+  "acquisition_days": 15,
+  "diagnostic_n": 9902,
+  "primary_metric_checks": 32,
+  "archived_features_max_metric_difference": 0.0,
+  "raw_images_max_metric_difference": 9.158111539009361e-06,
+  "raw_tolerance": 5e-05,
+  "diagnostic_membership_matches_archive": true,
+  "raw_images_with_exact_archived_cell_shares": 11288,
+  "maximum_cell_share_difference": 0.037109375,
+  "unit_tests_passed": 11,
+  "single_image_json_and_visuals_checked": true,
+  "single_image_pbi": 0.2866443452380953,
+  "single_image_prediction": 0.40212648016757474,
+  "random_day_training_cli_checked": true,
+  "deployment_training_cli_checked": true,
+  "saved_prediction_evaluation_cli_checked": true,
+  "all_seven_component_variants_recalculated": true,
+  "ablation_note": "The supplied component CSV contains recalculated unrounded scores. Some historical rounded Table II entries differ in their last digits; these values were not forced to match.",
+  "tested_dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "Pillow": "13.0.0",
+    "opencv-python-headless": "5.1.0.95"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "method": "PBI-Loss",
+  "coefficients": {
+    "a": 0.48341445197800764,
+    "b": 0.3372138515620684,
+    "c": 0.06998466660965091
+  },
+  "model": {
+    "exponent": 0.7,
+    "sun_start": 6.0,
+    "sun_duration": 12.5
+  },
+  "processing": {
+    "corners": [
+      [
+        80,
+        21
+      ],
+      [
+        186,
+        35
+      ],
+      [
+        160,
+        164
+      ],
+      [
+        17,
+        145
+      ]
+    ],
+    "size": 192,
+    "margin": 6,
+    "clahe": true,
+    "clahe_clip": 2.0,
+    "clahe_tiles": [
+      4,
+      4
+    ],
+    "mask_threshold": 0.7,
+    "full_blockage": 0.7,
+    "top_cells": 2,
+    "feature_precision": "float16"
+  },
+  "training": {
+    "protocol": "random_days",
+    "seed": 42,
+    "train_days": [
+      "2017-06-13",
+      "2017-06-14",
+      "2017-06-15",
+      "2017-06-16",
+      "2017-06-20",
+      "2017-06-21",
+      "2017-06-24",
+      "2017-06-26",
+      "2017-06-27",
+      "2017-06-28",
+      "2017-06-29",
+      "2017-06-30"
+    ],
+    "test_days": [
+      "2017-06-22",
+      "2017-06-23",
+      "2017-06-25"
+    ],
+    "train_n": 9733,
+    "test_n": 1899,
+    "training_paths_sha256": "5ebe82c11e9b6ff621d4f880f47f9efa326a7d7dd601501ba3ec518f681d9c79"
+  }
+}
